@@ -1,4 +1,5 @@
 import React from "react";
+import { CardDetails } from "../card-details/card-details";
 import "./card.css";
 export const Card = props => (
   <div className="card-container">
@@ -9,5 +10,6 @@ export const Card = props => (
       height="180px"
     />
     <h1>{props.pokemon.name.toUpperCase()}</h1>
+    <CardDetails details={props.pokemon.type} />
   </div>
 );

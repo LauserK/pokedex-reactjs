@@ -1,0 +1,19 @@
+.card-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-details > span {
+  margin-right: 10px;
+  background: #8e44ad;
+  border-radius: 5px;
+  padding: 3px 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.card-details > span:nth-child(odd) {
+  background: #2ecc71;
+  color: #000000;
+}

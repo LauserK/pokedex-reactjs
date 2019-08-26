@@ -14,9 +14,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://pokeapi.co/api/v2/pokemon")
+    fetch(
+      "https://raw.githubusercontent.com/proyectos-mejorandola/pokedex/master/public/pokemons.json"
+    )
       .then(response => response.json())
-      .then(data => this.setState({ pokemons: data.results }));
+      .then(data => this.setState({ pokemons: data }));
   }
 
   handleChange = e => {
