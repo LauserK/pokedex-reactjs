@@ -1,0 +1,12 @@
+header {
+  background: #1d1d1d;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+header a {
+  color: aquamarine;
+  text-decoration: none;
+  margin-left: 10px;
+}

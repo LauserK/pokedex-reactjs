@@ -9,7 +9,7 @@ export const Card = props => (
       width="180px"
       height="180px"
     />
-    <h1>{props.pokemon.name.toUpperCase()}</h1>
+    <h2>{props.pokemon.name.toUpperCase()}</h2>
     <CardDetails details={props.pokemon.type} />
   </div>
 );

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { CardList } from "./components/card-list/card-list";
 import { SearchBox } from "./components/search-box/search-box";
+import { Header } from "./components/header/header";
 
 import "./App.css";
 
@@ -32,6 +33,7 @@ class App extends Component {
     );
     return (
       <div className="App">
+        <Header />
         <h1 className="App-title">Pokedex</h1>
         <SearchBox
           placeholder="Search pokemons"
